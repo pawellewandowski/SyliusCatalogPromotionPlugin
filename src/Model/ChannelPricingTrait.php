@@ -97,7 +97,7 @@ trait ChannelPricingTrait
 
     public function getMultiplier(): float
     {
-        return $this->multiplier;
+        return (float)$this->multiplier;
     }
 
     public function getBulkIdentifier(): ?string
